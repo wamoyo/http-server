@@ -58,16 +58,18 @@ if (!argv.s && !argv.silent) {
       var date = utc ? new Date().toUTCString() : new Date();
       if (error) {
         logger.info(
-          '[%s] "%s %s" Error (%s): "%s"',
-          date, req.method.red, req.url.red,
-          error.status.toString().red, error.message.red
+          '!!! %s %s %s Error (%s)',
+          //date, req.method.red, req.url.red,
+          req.method.red, req.url.red,
+          error.status.toString(), error.message
         );
       }
       else {
         logger.info(
-          '[%s] "%s %s" "%s"',
-          date, req.method.cyan, req.url.cyan,
-          req.headers['user-agent']
+          '--> %s %s',
+          //date, req.method.cyan, req.url.cyan,
+          req.method.green, req.url
+          //req.headers['user-agent']
         );
       }
     }
