@@ -1,11 +1,11 @@
 {
   "name": "http-server",
   "version": "0.9.0",
-  "description": "A simple zero-configuration command-line http server",
+  "description": "A slight adjustment on indexzero's http server",
   "main": "./lib/http-server",
   "repository": {
     "type": "git",
-    "url": "git://github.com/indexzero/http-server.git"
+    "url": "git@github.com:wamoyo/http-server.git"
   },
   "keywords": [
     "cli",
