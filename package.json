@@ -1,5 +1,5 @@
 {
-  "name": "@wamoyo/http-server",
+  "name": "wamoyo-http-server",
   "version": "0.9.0",
   "description": "A slight adjustment on indexzero's http server",
   "main": "./lib/http-server",
