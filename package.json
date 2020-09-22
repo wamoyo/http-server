@@ -1,5 +1,5 @@
 {
-  "name": "wamoyo@http-server",
+  "name": "@wamoyo/http-server",
   "version": "0.10.0",
   "description": "Indexzero's http server with simplified logs and 0 seconds of cache by default.",
   "main": "./lib/http-server",
